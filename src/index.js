@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import PracticeInput from './components/Practice/PracticeInput';
+import PracticeArray from './components/Practice/PracticeArray';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App />
+    <PracticeArray />
   </>
 );
 
