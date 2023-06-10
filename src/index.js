@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import PracticeInput from './components/Practice/PracticeInput';
 import PracticeArray from './components/Practice/PracticeArray';
+import UseInput from './components/CustomHooks/UseInput';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <PracticeArray />
+    <UseInput />
   </>
 );
 
