@@ -7,12 +7,13 @@ import PracticeArray from './components/Practice/PracticeArray';
 import UseInput from './components/CustomHooks/UseInput';
 import UseTabs from './components/CustomHooks/UseTabs';
 import PracUseEffect from './components/CustomHooks/PracUseEffect';
+import UseTitle from './components/CustomHooks/UseTitle';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <PracUseEffect />
+    <UseTitle />
   </>
 );
 
