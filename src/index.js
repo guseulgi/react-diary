@@ -5,12 +5,13 @@ import App from './App';
 import PracticeInput from './components/Practice/PracticeInput';
 import PracticeArray from './components/Practice/PracticeArray';
 import UseInput from './components/CustomHooks/UseInput';
+import UseTabs from './components/CustomHooks/UseTabs';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <UseInput />
+    <UseTabs />
   </>
 );
 
