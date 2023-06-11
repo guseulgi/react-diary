@@ -9,12 +9,13 @@ import UseTabs from './components/CustomHooks/UseTabs';
 import PracUseEffect from './components/CustomHooks/PracUseEffect';
 import UseTitle from './components/CustomHooks/UseTitle';
 import UseClick from './components/CustomHooks/UseClick';
+import UseConfirms from './components/CustomHooks/UseConfirms';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <UseClick />
+    <UseConfirms />
   </>
 );
 
