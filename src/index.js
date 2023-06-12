@@ -16,12 +16,13 @@ import UseFadeIn from './components/CustomHooks/UseFadeIn';
 import UseNetwork from './components/CustomHooks/UseNetwork';
 import UseScroll from './components/CustomHooks/UseScroll';
 import UseFullScreen from './components/CustomHooks/UseFullScreen';
+import UseNotification from './components/CustomHooks/UseNotification';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <UseFullScreen />
+    <UseNotification />
   </>
 );
 
