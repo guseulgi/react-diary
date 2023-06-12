@@ -14,12 +14,13 @@ import UsePreventLeave from './components/CustomHooks/UsePreventLeave';
 import UseBeforeLeave from './components/CustomHooks/UseBeforeLeave';
 import UseFadeIn from './components/CustomHooks/UseFadeIn';
 import UseNetwork from './components/CustomHooks/UseNetwork';
+import UseScroll from './components/CustomHooks/UseScroll';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <UseNetwork />
+    <UseScroll />
   </>
 );
 
