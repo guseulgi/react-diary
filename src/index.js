@@ -12,12 +12,13 @@ import UseClick from './components/CustomHooks/UseClick';
 import UseConfirms from './components/CustomHooks/UseConfirms';
 import UsePreventLeave from './components/CustomHooks/UsePreventLeave';
 import UseBeforeLeave from './components/CustomHooks/UseBeforeLeave';
+import UseFadeIn from './components/CustomHooks/UseFadeIn';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <UseBeforeLeave />
+    <UseFadeIn />
   </>
 );
 
