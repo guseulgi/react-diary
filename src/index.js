@@ -17,12 +17,13 @@ import UseNetwork from './components/CustomHooks/UseNetwork';
 import UseScroll from './components/CustomHooks/UseScroll';
 import UseFullScreen from './components/CustomHooks/UseFullScreen';
 import UseNotification from './components/CustomHooks/UseNotification';
+import UseAxios from './components/CustomHooks/UseAxios';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <UseNotification />
+    <UseAxios />
   </>
 );
 
